@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="listArray">
+        <item>Rød</item>
+        <item>Orange</item>
+        <item>Gul</item>
+        <item>Grøn</item>
+        <item>Blå</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item><color>#FE0101</color></item>
+        <item><color>#FEAD01</color></item>
+        <item><color>#FEFE01</color></item>
+        <item><color>#59FE01  </color></item>
+        <item><color>#0114FE</color></item>
+
+    </string-array>
+
+</resources>

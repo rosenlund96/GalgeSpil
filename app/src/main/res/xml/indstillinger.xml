@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="brugPosVedStart"
+        android:title="Lad os vide hvor du er"
+        android:summary="Så ved vi hvornår vi skal lave villaknæk"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="ventPåPos"
+        android:title="Gå ikke videre før vi har fin position"
+        android:summaryOn="Lad os kende din position altid"
+        android:summaryOff="Brug seneste position"
+        android:defaultValue="false" />
+    <EditTextPreference
+        android:key="kontonummer"
+        android:title="Dit kortnummer"
+        android:summary="Vi stjæler kun en smule"
+        android:defaultValue="" />
+
+    <ListPreference
+                android:title="Vælg farvetema"
+                android:key="listPref"
+                android:defaultValue="4"
+                android:entries="@array/listArray"
+                android:background="@array/listValues" />
+
+</PreferenceScreen>
